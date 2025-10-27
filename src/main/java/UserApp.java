@@ -1,5 +1,6 @@
 
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class UserApp extends JFrame {
@@ -13,6 +14,9 @@ public class UserApp extends JFrame {
         this.painting = new Painting();
         this.vlogger = new Vlogger();
         this.user = new Player();
+
+        panel.add(new JLabel("Player Name:" + user.getName()));
+        panel.add(new JLabel("Player Level:" + user.getLevel()));
 
         add(panel);
         setVisible(b:true);
