@@ -18,8 +18,8 @@ public class UserApp extends JFrame {
         panel.add(new JLabel("Player Name:" + user.getName()));
         panel.add(new JLabel("Player Level:" + user.getLevel()));
 
-        add(panel);
-        setVisible(b:true);
+        this.add(panel);
+        this.setVisible(true);
     }
     public static void main(String[] args) {
         new UserApp();
