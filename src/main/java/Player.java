@@ -3,15 +3,15 @@ public class Player{
     public int level;
 
 public Player(){
-    this.name = 'Dominic';
+    this.name = "Dominic";
     this.level = 3;
 }
 
-public String getName(name){
+public String getName(){
     return name;
 }
 
-public int getLevel(level){
+public int getLevel(){
     return level;
 }
 }

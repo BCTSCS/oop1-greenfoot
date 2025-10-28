@@ -15,8 +15,13 @@ public class UserApp extends JFrame {
         this.vlogger = new Vlogger();
         this.user = new Player();
 
+        this.setTitle("idk");
+        this.setSize(400, 400);
+
         panel.add(new JLabel("Player Name:" + user.getName()));
         panel.add(new JLabel("Player Level:" + user.getLevel()));
+        panel.add(new JLabel("Painting Name:" + painting.getTitle()));
+        panel.add(new JLabel("Painting Year:" + painting.getYear()));
 
         this.add(panel);
         this.setVisible(true);
