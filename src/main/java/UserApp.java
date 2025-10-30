@@ -22,6 +22,8 @@ public class UserApp extends JFrame {
         panel.add(new JLabel("Player Level:" + user.getLevel()));
         panel.add(new JLabel("Painting Name:" + painting.getTitle()));
         panel.add(new JLabel("Painting Year:" + painting.getYear()));
+        panel.add(new JLabel("Vlogger Name:" + vlogger.getName()));
+        panel.add(new JLabel("Vlogger Year Joined:" + vlogger.getYearJoined()));
 
         this.add(panel);
         this.setVisible(true);
